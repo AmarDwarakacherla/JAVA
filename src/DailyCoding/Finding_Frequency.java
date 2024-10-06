@@ -21,6 +21,10 @@ public class Finding_Frequency {
                 freq.put(arr[i],1);
             }
         }
+//        instead of the using above code you can use the below code it will act as same
+//        for(int i=0;i< arr.length;i++){
+//            freq.put(arr[i],freq.getOrDefault(arr[i],0)+1);
+//        }
         for(Map.Entry<Integer,Integer> entry : freq.entrySet()){
             System.out.println(entry.getKey()+" : "+entry.getValue());
         }
