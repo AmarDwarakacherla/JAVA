@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class Max_Distance_Between_Same_Elements {
     public static void main(String[] args) {
-        int arr[] = new int[]{1,1,2,2,2,1};
+        int[] arr = new int[]{1,1,2,2,2,1};
         System.out.println(maxDistance(arr));
         int[] arr2 = {3, 2, 1, 2, 1, 4, 5, 8, 6, 7, 4, 2};
         System.out.println(maxDistance(arr2));
