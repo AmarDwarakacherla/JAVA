@@ -19,7 +19,6 @@ public class Amar_ClassName_Crete {
                 sb.append(str.charAt(i));
             }
         }
-        System.out.println(sb.toString());
     }
 }
 
