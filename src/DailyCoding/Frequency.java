@@ -1,9 +1,9 @@
-package DailyCoding.Bot;
+package DailyCoding;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class Day_2_1 {
+public class Frequency {
     public static void main(String[] args) {
         String str = "Amar Nath Reddy".replaceAll("\\s+","");
         int freq[] = new int[256];
