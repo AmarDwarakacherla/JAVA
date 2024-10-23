@@ -18,7 +18,11 @@ public class Amar_ClassName_Crete {
             }
             else if(str.charAt(i)=='.'){
                 sb.append("");
-            }else {
+            }
+            else if(!Character.isLetter(str.charAt(i))){
+                sb.append("_");
+            }
+            else {
                 s += str.charAt(i);
                 sb.append(str.charAt(i));
             }
