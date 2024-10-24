@@ -7,23 +7,16 @@ public class Amar_ClassName_Crete {
         Scanner input = new Scanner(System.in);
         String str = input.nextLine().trim();
         StringBuilder sb = new StringBuilder();
-        String modified = str.replaceAll("\\s+,","_");
-//        System.out.println(modified);
-        String s ="";
         if(str.charAt(0)>='0' && str.charAt(0)<='9')sb.append("_");
-        for(int i=0;i<str.length();i++){
+        int i = 0;
+        for(i=0;i<str.length();i++){
             if(Character.isWhitespace(str.charAt(i))){
                 sb.append("_");
-                s += "_";
             }
-            else if(str.charAt(i)=='.'){
+            else if(str.charAt(i)=='.' && Character.isWhitespace(str.charAt(i+1))){
                 sb.append("");
             }
-            else if(!Character.isLetter(str.charAt(i))){
-                sb.append("_");
-            }
             else {
-                s += str.charAt(i);
                 sb.append(str.charAt(i));
             }
         }
