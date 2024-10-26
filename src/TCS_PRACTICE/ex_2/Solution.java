@@ -24,7 +24,6 @@ public class Solution {
         HeadSets secMin = findAvailabilityHeadsetWithSecondMinPrice(hs);
         System.out.println(secMin.toString());
     }
-
     private static int findTotalPriceForGivenBrand(HeadSets[] hs, String findBrand) {
         int sum = 0;
         for(int i=0;i<hs.length;i++)
@@ -36,6 +35,7 @@ public class Solution {
         }
         return sum;
     }
+
     private static HeadSets findAvailabilityHeadsetWithSecondMinPrice(HeadSets[] hs){
         HeadSets first = null;
         HeadSets second = null;
