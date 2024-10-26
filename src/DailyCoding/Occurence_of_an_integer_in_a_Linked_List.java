@@ -8,6 +8,7 @@ public class Occurence_of_an_integer_in_a_Linked_List {
         ll.insert(1);
         ll.insert(2);
         ll.insert(1);
+
         ll.insert(3);
         ll.insert(1);
         System.out.println(count(ll.head,1));
