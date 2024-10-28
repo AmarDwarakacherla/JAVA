@@ -1,19 +1,21 @@
 package DailyCoding;
 
+import java.util.*;
+
 public class Remove_Duplicates_from_Sorted_Array {
     public static void main(String[] args) {
-        System.out.println(removeDuplicates(new int[]{0,0,1,1,1,2,2,3,3,4}));
+        int[] arr1 = {2, 2, 3, 3, 7, 5};
+        int[] arr2 = {2, 2, 5, 5, 7, 7};
+        int[] arr3 = {8, 7};
 
+        System.out.println(removeDuplicates(arr1));
+        System.out.println(removeDuplicates(arr2));
+        System.out.println(removeDuplicates(arr3));
     }
-    public static int removeDuplicates(int[] nums) {
-        int index = 0;
-        for(int i=1;i<nums.length;i++){
-            if(nums[i]!=nums[i-1]){
-                nums[index++] = nums[i];
-            }
-        }
-        for(int i=0;i<index;i++) System.out.print(nums[i]+" ");
-        System.out.println();
-        return index;
+    public static ArrayList<Integer> removeDuplicates(int[] nums) {
+       LinkedHashSet<Integer> set = new LinkedHashSet<>();
+       for(int i : nums) set.add(i);
+
+       return new ArrayList<>(set);
     }
 }
