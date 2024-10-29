@@ -1,4 +1,4 @@
-package com.Amar;
+package TCS_PRACTICE.Amar;
 import java.util.regex.*;
 
 public class REGEX {

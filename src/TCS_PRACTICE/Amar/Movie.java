@@ -1,4 +1,4 @@
-package com.Amar;
+package TCS_PRACTICE.Amar;
 
 public class Movie {
     String movieName;
