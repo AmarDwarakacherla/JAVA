@@ -4,9 +4,15 @@ Create a class newspaper with below attributes.
     publicationYear-int
     price-int
     Write parametrised constructor as required.
+
+
+
+
     Create class Solution with main method.
     Implement 2 static methods findTotalPriceByPublicationYear and
     searchNewspaperByName in solution class.
+
+
     findTotalPriceByPublicationYear method:
        This method will take array of the Newspaper objects and int parameter
     type.This method will return the total price of newspapers from array of
@@ -29,6 +35,12 @@ Create a class newspaper with below attributes.
     **************************************************************************************************
 
     input1:
+
+
+
+    1. class creation
+    2 - input
+    3 - methods
 
 
 134
@@ -56,6 +68,15 @@ Times of India
     name-Times of India
     publicationYear-1988
     price-15
+
+
+
+
+
+
+
+
+
 
 
 
