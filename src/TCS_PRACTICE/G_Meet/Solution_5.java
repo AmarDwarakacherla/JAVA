@@ -152,41 +152,37 @@ public class Solution_5 {
 }
 
 //5
-
-// 101
-// Agatha Christie
-// 11
-// Murder on the Orient Express
-// Crime
-// 20.00
-
-// 102
-// Arthur conan doyle
-// 12
-// The Hound of the Baskervilles
-// Crime
-// 25.00
-
-// 103
-// Stephen Edwin King
-// 13
-// A Memoir of the Craft
-// Horror
-// 40.00
-// Cayton Emery
-
-// 14
-// The Burning Goddess
-// Fantasy
-// 30.00
-// 105
-// Trisha Ashley
-// 15
-// Wedding Tiers
-// Fantasy
-// 35.00
-// Crime
-// Fantasy
+//101
+//Agatha Christie
+//11
+//Murder on the Orient Express
+//Crime
+//20.00
+//102
+//Arthur conan doyle
+//12
+//The Hound of the Baskervilles
+//Crime
+//25.00
+//103
+//Stephen Edwin King
+//13
+//A Memoir of the Craft
+//Horror
+//40.00
+//Cayton Emery
+//14
+//The Burning Goddess
+//Fantasy
+//30.00
+//105
+//Trisha Ashley
+//15
+//Wedding Tiers
+//Fantasy
+//35.00
+//Crime
+//Fantasy
 // 20
 
 
