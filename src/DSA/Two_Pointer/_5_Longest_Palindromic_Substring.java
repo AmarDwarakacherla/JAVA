@@ -5,7 +5,7 @@ public class _5_Longest_Palindromic_Substring {
         System.out.println(longestPalindromeApprach1("babad"));
 
     }
-    static public String longestPalindrome(String s) {
+    static public String longestPalindromeApprach1(String s) {
         if(s.length()<=1) return s;
         String LPS = "", palindrome = "";
         int low=0, high=0;
