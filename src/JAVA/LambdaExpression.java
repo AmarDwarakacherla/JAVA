@@ -9,6 +9,6 @@ public class LambdaExpression {
         List<Integer> list = Arrays.asList(1,20,10,5,4,2,1);
         Collections.sort(list, (a,b) -> a.compareTo(b));
 
-        List<Integer> even = (list) -> list%2;
+//        List<Integer> even = (list) -> list%2;
     }
 }
