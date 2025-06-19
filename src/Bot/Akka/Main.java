@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
+import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
@@ -31,6 +32,10 @@ public class Main {
       for(Employee emp1: employee){
           System.out.println(emp1);
       }
+      String[] s = new String[]{"Amar","Pavan","Harsha"};
+
+      int x = Arrays.stream(s).map(n->n.length()).reduce(0,(y,n)->y+n);
+        System.out.println(x);
 
 
 
