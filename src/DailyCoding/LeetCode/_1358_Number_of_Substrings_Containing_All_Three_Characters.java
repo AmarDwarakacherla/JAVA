@@ -40,5 +40,19 @@ public class _1358_Number_of_Substrings_Containing_All_Three_Characters {
         }
         return res;
     }
-    
+
+    public static int numberOfSubstringsUsingLastIndex(String s) {
+        int[] last = {-1, -1, -1};  // store last index of 'a', 'b', 'c'
+        int res = 0;
+
+        for (int i = 0; i < s.length(); i++) {
+            last[s.charAt(i) - 'a'] = i;
+            if (last[0] != -1 && last[1] != -1 && last[2] != -1) {
+                res += 1 + Math.min(last[0], Math.min(last[1], last[2]));
+            }
+        }
+        return res;
+    }
+
+
 }
